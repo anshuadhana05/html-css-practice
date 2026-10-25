@@ -1,0 +1,66 @@
+.card {
+    width: 350px;
+    padding: 30px 20px;
+    background-color: #111827;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+img{
+    width: 150px;
+    height:150px;
+    margin-left:50%;
+    display:block;
+    border-radius:50%;
+    margin :0 auto;
+    transition: transform 0.3s ease;
+}
+img:hover{
+    transform:scale(1.2);
+}
+body{
+    background-color:#1f2937;
+    text-align:center;
+}
+h3{
+    color:whitesmoke;
+}
+#detail{
+    color:rgb(175, 172, 172);
+}
+pre{
+    color:#aba5a5;
+}
+.icon a{
+    color: white;
+    margin:0 15px;
+}
+.icon .fa-linkedin:hover{
+    transform:scale(1.1);
+}
+.icon .fa-github:hover{
+    transform:scale(1.1);
+}
+.icon .fa-instagram:hover{
+    transform:scale(1.1);
+}
+.icon .fa-square-x-twitter:hover{
+    transform:scale(1.1);
+}
+.email{
+    color:white;
+    display:block;
+    margin:0 auto;
+    height:40px;
+    width:150px;
+    line-height:40px;
+    background-color:rgb(100, 100, 253);
+    border-radius:20px;
+}
+.email a{
+    text-decoration:none;
+    color:white;
+}
+.email:hover{
+    transform:scale(1.2);
+    box-shadow:0px 5px 5px #aba5a5;
+}
