@@ -1,0 +1,96 @@
+.brand{
+    display:flex;
+    align-items:center;
+    position:relative;
+}
+.nike-logo {
+    width: 70px;
+    height: auto;
+    padding:10px;
+    display:inline-block;
+    vertical-align:middle;
+}
+h1{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    margin:0;
+}
+h2{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    margin:0;
+}
+h2:hover{
+    font-size:1.8em;
+}
+.nav .navbar{
+    margin:0;
+}
+.navbar ul{
+    padding:0px;
+    list-style-type:none;
+    background-color:black;
+    height:30px;
+    margin:0;
+    overflow:hidden;
+}
+.navbar a{
+    text-decoration:none;
+    color:white;
+    display:block;
+    padding:7px 20px;
+    text-align:center;
+}
+.navbar li{
+    float:left;
+    margin-right:6.25%;
+}
+.navbar a:hover{
+    color:rgb(189, 185, 185);
+}
+
+.shoe-container{
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex-wrap:wrap;
+    gap:20px;
+}
+.shoe{
+    display:inline-block;
+    border:1px solid black;
+    text-align:center;
+    overflow:hidden;
+}
+.shoe img{
+    height:250px;
+    width:100%;
+    object-fit:cover;
+    transition:transform 0.3s ease;
+}
+.shoe img:hover{
+    transform:scale(1.1);
+}
+.Tshirts{
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex-wrap:wrap;
+    gap:20px;
+}
+.tshirt{
+    display:inline-block;
+    border:1px solid black;
+    text-align:center;
+    overflow:hidden;
+}
+.tshirt img{
+    height:250px;
+    width:250px;
+    transition:transform 0.3s ease;
+}
+.tshirt img:hover{
+    transform:scale(1.1);
+}
